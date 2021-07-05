@@ -15,9 +15,11 @@ function insertBook(books,cards) {
 }
         
 function builtCardDOM(book) {
+    let img = bookList.image_base_url
+    console.log(img)
     return (
         `<div class="card">
-            <img src="https://images.bwbcovers.com/${book.ImageURL}" alt="#" />
+            <img src="${img}${book.ImageURL}" alt="#" />
             <div class="book-info">   
                 <div class="title">${book.Title}<div>
                 <div class="author">${book.Authors}<div>
