@@ -5,12 +5,12 @@ import './main.scss'
 document.addEventListener('DOMContentLoaded', function() {
     const cards = document.getElementById('card')
     const books = bookList.data
-    insertBand(books,cards)
+    insertBook(books,cards)
     console.log(books)
 
 })
 
-function insertBand(books,cards) {
+function insertBook(books,cards) {
     books.forEach(book => {
         let cardDOM = builtCardDOM(book)
         cards.insertAdjacentHTML('beforeend', cardDOM)
