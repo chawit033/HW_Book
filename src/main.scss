@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    justify-content: center;
+} 
+.card {
+    border: 1px solid rgb(227, 226, 231);
+    padding: 1rem;
+    background-color: #ebe3cb;
+    text-align: center;
+    margin: 2.5rem 0 2.5rem 0;
+    width: 80%;
+    border-radius: 20px;
+}
+
+img {
+    height: 240px;
+    width: auto;
+}
+
+.book-info {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title {
+    padding-top: 0.5rem;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.author {
+    padding-top: 0.3rem;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.format {
+    padding-top: 0.3rem;
+}

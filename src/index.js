@@ -23,11 +23,11 @@ function builtCardDOM(book) {
     let img = bookList.image_base_url
     return (
         `<div class="card">
-            <img src="${img.concat(`${book.ImageURL}`)}" alt="#" />
+            <img src="${img.concat(`${book.ImageURL}`)}" alt="" />
             <div class="book-info">   
                 <div class="title">${book.Title}<div>
                 <div class="author">${book.Authors}<div>
-                <div class="format">${book.format}</div>
+                <div class="format">${book.Format}</div>
             </div>
         </div>`
 
